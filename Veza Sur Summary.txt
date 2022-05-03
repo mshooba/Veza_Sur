@@ -1,0 +1,48 @@
+I decided to do project 2 on a fictional brewery/restaurant based in southern california that I invented 
+called Veza Sur brewing company. This brewery has a big focus on using local ingredients, and a sense
+of community. As far as layout goes, one of the major problems I ran into was using Grid and Flex, which
+led to alot of alignment problems. I decided to only use flex, which made things much easier. I had a ton
+of issues with responsiveness, which unfortuantely is still not perfect
+ 
+
+Overall, I feel as though I need to do more planning before I jump in. This time I even made a really nice prototype, and still ended up
+getting very confused with my code. At one point I took 3 or 4 days away, and came back to see that I had not commented a single thing.
+This let to alot of banging my head against the wall to figure out what the heck I was doing before I stepped away for a couple of days.
+From now on I will comment my CSS and HTML as I go - this is a programming lesson I should have learned by now, but sometimes I just forget.
+
+Areas I think I did well on for this assignment are...
+
+1. Design - I like the way everything looks and how it flows together, font choices, media, fonts etc...
+2. Content - I tried hard to make this seem like it could be a real brewery or restaurant, and I think I achieved that.
+3. Appropriate promotional style Layout - I really wanted to embrace the long scroll format for this site, and between the chunked
+content, large images and sticky navbar I think I did OK. The small logo in the top right corner would server as a home button, to
+get back to the main page from anywhere, and the thought behind the sticky navbar is that since it's a long scrolling site, the user
+does not have to manually scroll back to the top of the page to go to another section. I tried to think about UX design as well in
+this project.
+
+Areas where I feel I need to improve...
+
+1. Responsiveness, it still does not look great in mobile and tablet views, need to work on this. Possibly could be 
+my understanding of media queries is not 100%.
+2. Repetetive CSS. I am still struggling with slimming down the amount of CSS I use. I did end up
+using the chrome dev tools which tells you where you have unused CSS to see if I could remove some
+but it was all in use. I think I could be more effecient with my seletors, so I don't have a giant
+wall of CSS that is so hard to read.
+
+I should point out that there are some areas where there are links are buttons that don't go anywhere. Since
+I put so much time and effort into design, and this project only required one page, the Grid Image section 
+would link to other pages if the site was complete. As well as the button that says "JOIN THE TEAM!" Would take
+the user to an application page. I also had other ideas for forms where other companies could order bulk items
+to sell in their restaurant, or store. I had many ideas for this but ran out of time. I wanted to include more pages.
+
+
+EXTRAS ...
+
+I ended up doing a form sort of like I did on project 1 - except this time I tried to style it nicer.
+It is the email sign up I have in the middle section, and the div is called email-form. I tried to
+actually make it work with javascript but got really confused, and decided not to include the .JS file.
+
+I also belive that possible I could qualify for overall expectional design, but am not counting on that
+so theres the form as well. I really wanted to explore more JS but had a really hard time trying to think of
+something that would fit my project.
+

@@ -1,0 +1,415 @@
+html,
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgba(255, 255, 255, 0.382);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* start font rules*/
+img {
+  overflow: hidden;
+  max-width: 100%;
+  filter: drop-shadow(0.1rem 0.1rem 1rem rgb(81, 81, 81));
+
+}
+
+h2 {
+
+  max-width: 100%;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 35px;
+  color: rgb(83, 83, 83);
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+h3 {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  padding-left: 130px;
+  color: rgb(83, 83, 83);
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: lighter;
+
+}
+
+p {
+  margin: auto;
+  max-width: 500px;
+  color: rgb(83, 83, 83);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  max-width: 500px;
+  line-height: 1.5em;
+}
+
+/*end font rules*/
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+nav {
+  /*stays on top - parent flex container for ul,li and one logo?*/
+  display: inline-flex;
+  align-items: center;
+  z-index: 2;
+  filter: drop-shadow(0.1rem 0.1rem 1rem rgb(81, 81, 81));
+  background-color: rgb(255, 255, 255);
+}
+
+nav,
+a:link {
+  padding: 0 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 12px;
+  color: rgb(83, 83, 83);
+  text-decoration: none;
+}
+
+.box1,
+.box2 {
+  /*top-right-bottom-left*/
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+.box1,
+.box2,
+img {
+  padding: 50px 0 0 120px;
+  width: 80%;
+}
+
+.box2,
+img {
+  width: 80%;
+  padding: 50px 0 0 130px;
+}
+
+.taco,
+.beermaking,
+.barley,
+.people,
+.beerflight,
+.neon {
+
+  max-width: 85%;
+  max-height: 85%;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/*button styling*/
+.join {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto 20px auto;
+  padding: 14px;
+  display: flex;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #403f3f;
+  transition: all 0.15s;
+  border-radius: 10px;
+
+}
+
+.cheers {
+
+  filter: drop-shadow(0.1rem 0.1rem 1rem #ffffff);
+  margin-left: -40px;
+}
+
+
+.logo p {
+  padding: 15px 15px 15px 15px;
+}
+
+.banner_logo {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 45%;
+  margin-right: 130px;
+  margin-top: 100px;
+
+}
+
+.header_video {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 57px;
+
+  height: 500px;
+  position: relative;
+  filter: drop-shadow(0.1rem 0.1rem 1rem rgb(0, 0, 0));
+
+}
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+/*end header attributes*/
+
+section {
+  display: flex;
+  justify-content: center;
+  background: rgb(43, 61, 59);
+  background: linear-gradient(90deg, rgba(43, 61, 59, 1) 0%,
+      rgba(148, 150, 123, 1) 45%, rgba(254, 236, 199, 1) 100%);
+  flex-direction: row;
+  padding-bottom: 20px;
+  filter: drop-shadow(0.1rem 0.1rem 1rem rgb(52, 52, 52));
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+
+/*links*/
+
+a:link {
+  color: rgb(83, 83, 83);
+}
+
+a:visited {
+  color: rgb(83, 83, 83);
+}
+
+a:hover {
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+  color: rgb(177, 177, 177);
+}
+
+
+
+a:active {
+  color: rgb(255, 255, 255);
+}
+
+
+/*start email form*/
+.email-form {
+  margin-left: 50px;
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+input[type=submit] {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 14px;
+  display: flex;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #403f3f;
+  transition: all 0.15s;
+  border-radius: 10px;
+}
+
+.email-form .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid rgb(83, 83, 83);
+
+  background: transparent;
+}
+
+/*end email form*/
+
+
+/*start footer rules*/
+.learn_about_beers {
+  max-width: 100%;
+  padding-left: 120px;
+  margin-top: -80px;
+
+}
+
+.beer_description {
+  display: flex;
+  justify-content: space-between;
+
+  color: rgb(83, 83, 83);
+  max-width: 100%;
+  width: 50%;
+  padding: 50px;
+  border-radius: 50%;
+  filter: drop-shadow(0.5rem 0.5rem .1rem #00000050);
+  background-color: #f7f7f7
+}
+
+.learn_about_beers,
+.beer_video1,
+.beer_video2,
+.beer_video3,
+video {
+
+  max-width: 100%;
+  object-fit: contain;
+}
+
+
+
+
+
+.hours_of_operation {
+  margin-top: 100px;
+  padding: 30px;
+  background: rgb(43, 61, 59);
+  background: linear-gradient(90deg, rgba(43, 61, 59, 1) 0%,
+      rgba(148, 150, 123, 1) 45%, rgba(254, 236, 199, 1) 100%);
+  filter: drop-shadow(0.1rem 0.1rem 1rem rgb(81, 81, 81));
+
+}
+
+footer {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 200px;
+
+}
+
+/*end footer rules*/
+
+/*start media queries*/
+/*laptop/desktop*/
+@media screen and (max-width: 1024px) {
+
+  wrapper,
+  main,
+  nav {
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .box1,
+  .box2 {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-self:flex-start;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+ .learn_about_beers video{
+    margin-top: 100px;
+  }
+
+
+
+
+}
+
+
+
+
+/*for mobile*/
+@media screen and (max-width: 700px) {
+
+  
+
+
+
+  main,
+  nav {
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+
+  }
+
+  
+  h2{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h3{
+    font-size: 15px;
+    text-align: center;
+    align-items: center ;
+  }
+  
+  .wrapper{
+    margin-right: 120px;
+  }
+
+    
+
+  p{
+    font-size: 15px;
+  }
+
+ .learn_about_beers video{
+    margin-top: 100px;
+  }
+
+
+
+
+}
+  
+
+
+
+
+
+/*end media queries*/
